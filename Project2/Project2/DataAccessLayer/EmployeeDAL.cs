@@ -7,7 +7,7 @@ using Project2.Model;
 namespace Project2.DataAccessLayer
 {
     //them sua xoa lay ve danh sach tu csdl
-    public class EmployeeDAL
+    public class EmployeeDAL: IEmployeeDAL
     {
         //file path
         private string file = "employee.txt";

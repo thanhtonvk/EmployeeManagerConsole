@@ -6,7 +6,7 @@ using Project2.Model;
 namespace Project2.DataAccessLayer
 {
     //them sua xoa lay ve danh sach tu csdl
-    public class MajorDAL
+    public class MajorDAL: IMajorDAL
     {
         //file path
         private string file = "major.txt";

@@ -5,7 +5,7 @@ using Project2.Model;
 namespace Project2.DataAccessLayer
 {
     //them sua xoa lay ve danh sach tu csdl
-    public class CategoryDAL
+    public class CategoryDAL:ICategoryDAL
     {
         //file path
         private string file = "category.txt";

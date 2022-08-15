@@ -8,7 +8,7 @@ namespace Project2.Presentation
      //giao dien ctrinh 
     public class CustomerUI
     {
-        private CustomerDAL _dal = new CustomerDAL();
+        private ICustomerDAL _dal = new CustomerDAL();
 
         
         public void Add()//giao dien them
